@@ -1,7 +1,98 @@
+############################
+# Système & Windows
+############################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+############################
+# IDE & éditeurs
+############################
+.vscode/
+.vs/
+*.code-workspace
+
+############################
+# Build & binaires .NET
+############################
 bin/
 obj/
-.vs/
+out/
+[Bb]uild/
+artifacts/
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+
+############################
+# Packages & dépendances
+############################
+node_modules/
+*.nupkg
+*.snupkg
+packages/
+*.log
+
+############################
+# Utilisateur Visual Studio
+############################
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Entity Framework Core
+############################
 *.db
+*.mdf
+*.ldf
+Migrations/
+
+############################
+# Configuration locale / secrets
+############################
 appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+############################
+# Cache & temporaires
+############################
+*.tmp
+*.temp
+*.cache
+*.swp
+*.bak
+
+############################
+# Logs
+############################
+*.log
+logs/
+log/
+
+############################
+# Tests
+############################
+TestResults/
+coverage/
+coverage.lcov
+
+############################
+# Docker
+############################
+docker-compose.override.yml
+*.pid
+
+############################
+# Autres spécifiques au projet
+############################
+/.env
+.env.local
+.env.development
+.env.production
